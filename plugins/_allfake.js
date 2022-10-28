@@ -26,8 +26,8 @@ handler.all = async function (m) {
         
 		// Ini untuk command crator/owner
 		global.kontak2 = [
-         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'github.com/krizynofc', true],
-         [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'mhdfakri14@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'github.com/Raya2399', true],
+         [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'fajri123wakil@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
         
 		// ucapan ini mah
@@ -46,7 +46,7 @@ handler.all = async function (m) {
 					body: wm,
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(media)).buffer(),
-					sourceUrl: `${pickRandom([`https://vt.tiktok.com/ZSRBqB9q1/`, `https://www.instagram.com/mhdfakri_`, `https://youtube.com/hokenbeusz`])}`,
+					sourceUrl: `${pickRandom([`https://tiktok.com/alvin_ch1`, `https://www.instagram.com/al_vin.233`, `https://linktr.ee/fin222`])}`,
 				}
 			}
 		}
@@ -86,7 +86,7 @@ global.ftroli = {
                             itemCount : 1,
                             status: 1,
                             surface : 1,
-                            message: 'KrizynOfc', //Kasih namalu
+                            message: 'FinOfc', //Kasih namalu
                             orderTitle: tb,
                             thumbnail: fs.readFileSync('./media/krizyn.jpg'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net'
@@ -136,7 +136,7 @@ global.fliveLoc2 = {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "contactMessage": { "title":"krizyn","h": `haloo`, 'jpegThumbnail': fs.readFileSync('./media/krizyn.jpg')}}
+	 message: { "contactMessage": { "title":"Fin","h": `haloo`, 'jpegThumbnail': fs.readFileSync('./media/krizyn.jpg')}}
 	}
 	
  global.fcona = {
