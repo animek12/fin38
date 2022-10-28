@@ -13,7 +13,7 @@ CFonts.say('FORYN FOUR', {
   colors: ['blueBright','yellowBright'],                                        font: 'block',
   align: 'center',
 })
-CFonts.say(`WHATSAPP BOT BY KRIZYN OFC`, {                                            
+CFonts.say(`WHATSAPP BOT BY FIN OFC`, {                                            
 colors: ['yellow'],                                                           
 font: 'console',                                                              align: 'center',
 })
