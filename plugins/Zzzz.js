@@ -4,16 +4,16 @@ let handler = async (m, { conn }) => {
 let ye = `@${m.sender.split`@`[0]}`
 let esce = `Hello kak ${ye} Lagi Nyari Sc Ya? 
 
-💌 CARI AJA DIBAWAH INI
+💌 CHAT AJA DIBAWAH INI
 
-📮 YOU TUBE :
-youtube.com/c/hokenbeusz
+📮 WHATSAPP:
+wa.me/6282261065144
 
-📮 GITHUB :
-github.com/krizynofc/forynfour-MDV1
+📮 MY GITHUB :
+https://github.com/Raya2399
 
 📮 JANGAN LUPA MAMPIR :
-https://lynk.id/kri.com`
+https://linktr.ee/fin222`
 
 await conn.sendBut(m.chat, esce, '📮 DONT FORGET TO FOLLOW MY ACCOUNT', 'Thanks', '.menu', m) 
 }
